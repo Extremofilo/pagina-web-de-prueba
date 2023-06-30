@@ -1,95 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Mi Portafolio</title>
   <style>
-    /* Estilos CSS para personalizar el aspecto de tu portafolio */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-      }
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-      h1 {
-        font-size: 32px;
-        color: #333;
-        margin-bottom: 10px;
-      }
+    /* Estilos de las secciones */
+    .section {
+      padding: 50px;
+    }
 
-      h2 {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 8px;
-      }
+    .section:nth-child(odd) {
+      background-color: #f7f7f7;
+    }
 
-      p {
-        font-size: 16px;
-        color: #666;
-        margin-bottom: 16px;
-      }
+    .section:nth-child(even) {
+      background-color: #f0f0f0;
+    }
 
-      .section {
-        margin-bottom: 30px;
-      }
+    /* Otros estilos específicos de cada sección */
+    .section-about {
+      /* Estilos para la sección "Sobre mí" */
+      background-color: #e8e8e8;
+    }
 
-      .section-title {
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
+    .section-experience {
+      /* Estilos para la sección "Experiencia" */
+      background-color: #dcdcdc;
+    }
 
-      .section-content {
-        margin-left: 20px;
-      }
+    .section-education {
+      /* Estilos para la sección "Educación" */
+      background-color: #e1e1e1;
+    }
 
+    .section-skills {
+      /* Estilos para la sección "Habilidades" */
+      background-color: #d9d9d9;
+    }
+
+    .section-projects {
+      /* Estilos para la sección "Proyectos" */
+      background-color: #ededed;
+    }
+
+    .section-contact {
+      /* Estilos para la sección "Contacto" */
+      background-color: #d2d2d2;
+    }
   </style>
 </head>
+
 <body>
-  <header class="section">
-    <h1>Mi Nombre</h1>
-    <p>Desarrollador de software</p>
-  </header>
-
-  <section class="section">
-    <h2 class="section-title">Sobre mí</h2>
-    <div class="section-content">
-      <p>Aquí puedes escribir una breve descripción sobre ti, tus habilidades y tus logros.</p>
-    </div>
+  <section class="section section-about">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador de software con pasión por la creación de aplicaciones web y soluciones tecnológicas innovadoras. Me encanta aprender nuevas tecnologías y enfrentar desafíos en el campo de la programación.</p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title">Experiencia</h2>
-    <div class="section-content">
-      <p>Aquí puedes listar tu experiencia laboral, proyectos destacados y logros alcanzados.</p>
-    </div>
+  <section class="section section-experience">
+    <h2>Experiencia</h2>
+    <p>Tengo una amplia experiencia en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript y frameworks populares como React y Angular. He trabajado en proyectos desafiantes, colaborando con equipos multidisciplinarios para crear soluciones de software de alta calidad.</p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title">Educación</h2>
-    <div class="section-content">
-      <p>Aquí puedes mencionar tu formación académica, cursos relevantes y certificaciones obtenidas.</p>
-    </div>
+  <section class="section section-education">
+    <h2>Educación</h2>
+    <p>Me gradué con una licenciatura en Ciencias de la Computación y he continuado mi educación a través de cursos en línea y certificaciones en tecnologías específicas. Siempre estoy buscando oportunidades para expandir mis conocimientos y mantenerme actualizado en un campo en constante evolución.</p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title">Habilidades</h2>
-    <div class="section-content">
-      <p>Aquí puedes enumerar tus habilidades técnicas y herramientas que dominas.</p>
-    </div>
+  <section class="section section-skills">
+    <h2>Habilidades</h2>
+    <p>Mis habilidades incluyen el desarrollo front-end y back-end, diseño de bases de datos, resolución de problemas y colaboración efectiva en equipos de desarrollo. Además, tengo habilidades sólidas en análisis de requisitos, diseño de arquitectura y pruebas de software.</p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title">Proyectos</h2>
-    <div class="section-content">
-      <p>Aquí puedes destacar algunos de tus proyectos pasados y proporcionar detalles sobre tu contribución.</p>
-    </div>
+  <section class="section section-projects">
+    <h2>Proyectos</h2>
+    <p>A lo largo de mi carrera, he trabajado en una variedad de proyectos emocionantes que van desde aplicaciones web empresariales hasta proyectos personales. Estos proyectos han demostrado mi capacidad para traducir ideas en productos funcionales y me han permitido mejorar mis habilidades técnicas y de gestión de proyectos.</p>
   </section>
 
-  <section class="section">
-    <h2 class="section-title">Contacto</h2>
-    <div class="section-content">
-      <p>Aquí puedes proporcionar tu información de contacto, como tu dirección de correo electrónico y enlaces a perfiles en redes sociales.</p>
-    </div>
+  <section class="section section-contact">
+    <h2>Contacto</h2>
+    <p>Si deseas colaborar en un proyecto o tienes alguna pregunta, no dudes en contactarme. Estoy disponible para oportunidades laborales y siempre estoy abierto a nuevas conexiones en la industria.</p>
   </section>
 </body>
+
 </html>
